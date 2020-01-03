@@ -13,7 +13,6 @@ const browserSync = require("browser-sync").create();
 const prettify = require("gulp-prettify");
 const htmlhint = require("gulp-htmlhint");
 const PUBLIC_PATH = "dist/assets";
-
 const PATHS = {
   pug: {
     src: "./src/pug/**/!(_)*.pug",
