@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/32975158/72197680-4dd06400-3467-11ea-99eb-ca4075418484.jpg" alt="属性" title="タイトル">
+<img src="https://user-images.githubusercontent.com/32975158/72197822-31cdc200-3469-11ea-80d9-3e45ad73399f.jpg" alt="gulp-pug-scss-typescript" title="gulp-pug-scss-typescript">
 
 </div>
 
