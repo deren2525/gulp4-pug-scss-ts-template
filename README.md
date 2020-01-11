@@ -11,21 +11,21 @@
 > Pug × SCSS × TypeScript Template🐶 By gulp v4  
 > （gulp v4 による Pug × SCSS × TypeScript テンプレート）
 
-## Features
+## 📦 Features
 - Pug to HTML converter
 - SCSS to CSS converter
 - TypeScript to JavaScript converter
 - Autoprefixer CSS 
 - [Normalize.css](https://necolas.github.io/normalize.css/)
 
-### 📌 Pug to HTML converter option
+### Pug to HTML converter option
 #### If you add _ to the beginning of the file name, it will not be converted to HTML.
 > ex) _hogehoge.pug
 
 #### Metadata is set in the following file.
 > src > pug > include > _base.pug
 
-### 🎨 Directory structure
+### Directory structure
 
 ```
 ...
@@ -52,7 +52,8 @@
 - [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 - [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-## 0. How to set up gulp and Pug
+## 💬 Usage
+### 0. How to set up gulp and Pug
 If you've previously installed gulp globally, run `npm rm --global gulp` before following these instructions.  
 For more information, read this [Sip](https://medium.com/gulpjs/gulp-sips-command-line-interface-e53411d4467).
 
@@ -87,7 +88,7 @@ $ npm install --global gulp-cli
 $ npm install --global pug-cli
 ```
 
-## 1. Install
+### 1. Install
 
 ```
 $ git clone git@github.com:deren2525/gulp4-pug-scss-ts-template.git
@@ -110,7 +111,7 @@ pug version: 2.0.0-rc.4
 pug-cli version: 1.0.0-alpha6
 ```
 
-## 2. Usage
+### 2. Start
 ```
 # start
 $ gulp
