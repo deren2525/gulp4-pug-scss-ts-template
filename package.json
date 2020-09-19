@@ -34,7 +34,8 @@
     "normalize.css": "^8.0.1",
     "webpack": "^4.44.2",
     "webpack-cli": "^3.3.12",
-    "http-proxy": ">=1.18.1"
+    "http-proxy": ">=1.18.1",
+    "yargs-parser": ">=13.1.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
