@@ -8,14 +8,14 @@
 
 </div>
 
-> Pug × SCSS × TypeScript Template🐶 By gulp v4  
+> Pug × SCSS × TypeScript Template🐶 By gulp v4
 > （gulp v4 による Pug × SCSS × TypeScript テンプレート）
 
 ## 📦 Features
 - Pug to HTML converter
 - SCSS to CSS converter
 - TypeScript to JavaScript converter
-- Autoprefixer CSS 
+- Autoprefixer CSS
 - [Normalize.css](https://necolas.github.io/normalize.css/)
 
 ### Pug to HTML converter option
@@ -30,21 +30,24 @@
 ```
 ...
 ├─ gulpfile.ts
-├─ src
-│  ├─ pug
-│  │  ├─ include
+├─ src/
+│  ├─ pug/
+│  │  ├─ include/
 │  │  │  └─ _base.pug
 │  │  └─ index.pug
-│  ├─ scss
+│  ├─ scss/
 │  │  └─ style.scss
-│  └─ typescript
-│     └─ main.ts
+│  ├─ typescript/
+│  │  └─ main.ts
+│  └─ image/
+│
 └─ dist // What is automatically converted is stored here📦.
-   └─ assets
-      ├─ css
+      ├─ css/
       │  └─ style.css
-      ├─ js
+      ├─ js/
       │  └─ main.js
+      ├─ image/
+      │
       └─ index.html
 ```
 
@@ -54,10 +57,10 @@
 
 ## 💬 Usage
 ### 0. How to set up gulp and Pug
-If you've previously installed gulp globally, run `npm rm --global gulp` before following these instructions.  
+If you've previously installed gulp globally, run `npm rm --global gulp` before following these instructions.
 For more information, read this [Sip](https://medium.com/gulpjs/gulp-sips-command-line-interface-e53411d4467).
 
-1. Check for `node`, `npm`, and `npx`.  
+1. Check for `node`, `npm`, and `npx`.
 If they are not installed, follow the instructions [here](https://nodejs.org/en/).
 
 ```
