@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "gulp": "^4.0.2",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "typescript": "^3.7.4",
     "normalize.css": "^8.0.1"
   },
